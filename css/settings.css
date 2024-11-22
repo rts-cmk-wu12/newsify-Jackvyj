@@ -1,0 +1,55 @@
+body {
+  background-color: white;
+  color: #000000;
+}
+body.dark-mode {
+  background-color: black;
+  color: #ffffff;
+}
+
+.app-header {
+  display: flex;
+  justify-content: center;
+}
+
+.settings-title {
+  display: flex;
+  justify-self: center;
+  color: green;
+}
+
+.settings-Categories {
+  display: flex;
+  justify-self: center;
+}
+
+.setting-box {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 9px;
+  margin-right: 9px;
+}
+
+.dark-mode-button {
+  color: green;
+  background-color: white;
+  border-radius: 25px;
+  border-color: green;
+  padding: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: block;
+  justify-self: center;
+}
+
+.navbar {
+  display: grid;
+  justify-self: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 25px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}/*# sourceMappingURL=settings.css.map */
